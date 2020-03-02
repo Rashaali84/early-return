@@ -1,0 +1,49 @@
+ [...] \2-integrate\1-sum-all.js -- Mon Mar 02 2020
+
+- PASS: 7
+- FAIL: 4
+- ERROR: 0
+
+Test 1: PASS
+
+
+Test 2: PASS
+
+
+Test 3: PASS
+
+
+Test 4: PASS
+
+
+Test 5: PASS
+
+
+Test 6: PASS
+
+
+Test 7: PASS
+
+
+Test 8 (FAIL): Expected values to be strictly deep-equal:
+
+'64' !== null
+
+
+
+Test 9 (FAIL): Expected values to be strictly deep-equal:
+
+'64' !== null
+
+
+
+Test 10 (FAIL): Expected values to be strictly deep-equal:
+
+NaN !== null
+
+
+
+Test 11 (FAIL): Expected values to be strictly deep-equal:
+
+NaN !== null
+

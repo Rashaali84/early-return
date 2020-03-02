@@ -22,6 +22,7 @@ const sumAllTests = [
 
 const sumAll = (arr) => {
   // write me!
+  return arr.reduce((acc, item) => acc + item);
   // Hint: early return - are there any non-numbers?
   arr.forEach(e => console.log(e))
 };

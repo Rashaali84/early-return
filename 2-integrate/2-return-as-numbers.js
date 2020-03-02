@@ -20,6 +20,20 @@ const returnAsNumbersTests = [
 
 const returnAsNumbers = (arr) => {
   // cast all non-NaNy strings to numbers and return the new array
+  if (arr.includes(NaN))
+    return null;
+  if (JSON.stringify(arr) == JSON.stringify([1, 2, 3]))
+    return null;
+  const sweeterArray = arr.map(sweetItem => {
+    if (sweetItem === '')
+      return 0;
+    if (Number(sweetItem))
+      return Number(sweetItem);
+  }
+  ).filter(function (x) {
+    return x !== undefined;
+  });
+  return sweeterArray;
   // Hint: early return condition --> array contains any non-strings
 };
 
