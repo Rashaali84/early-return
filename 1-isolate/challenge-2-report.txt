@@ -1,0 +1,22 @@
+ [...] \1-isolate\challenge-2.js -- Mon Mar 02 2020
+
+- PASS: 6
+- FAIL: 0
+- ERROR: 0
+
+Test 1: PASS
+
+
+Test 2: PASS
+
+
+Test 3: PASS
+
+
+Test 4: PASS
+
+
+Test 5: PASS
+
+
+Test 6: PASS

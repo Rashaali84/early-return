@@ -10,6 +10,15 @@ const earlyReturn1Tests = [
 
 function earlyReturn1(a, b) {
   // write early returns to pass the asserts and the tests
+  if (typeof a === 'string' && typeof b === 'string') {
+    return 'string';
+  }
+  if (typeof a === 'boolean' && typeof b === 'boolean') {
+    return 'boolean';
+  }
+  if (typeof a === 'string' && typeof b === 'boolean') {
+    return 'string';
+  }
 
   console.assert(typeof a !== 'string', 'a should not be a string');
   console.assert(typeof b !== 'boolean', 'b should not be a boolean');

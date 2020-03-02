@@ -11,7 +11,10 @@ const earlyReturn4Tests = [
 ];
 function earlyReturn4(func, argForFunc) {
   // write the early returns to pass the assertions and the test cases
-
+  if (typeof func !== 'function')
+    return 'func must be a function';
+  if (typeof argForFunc !== 'boolean')
+    return 'argForFunc must be a boolean';
   console.assert(typeof func === 'function', 'func should be a function');
   console.assert(typeof argForFunc === 'boolean', 'argForFunc should be a boolean');
 
